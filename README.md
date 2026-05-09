@@ -22,9 +22,11 @@ Machine Learning — Course Project Repository
 
 | Full Name | Student ID | Email |
 |---|---|---|
-| Trần Kiến Quốc | 2312878 | <Email> |
-| Bùi Nhật Quí | <Student ID> | <Email> |
-| Nguyễn Võ Anh Quân | <Student ID> | <Email> |
+| Nguyễn Hồ Nguyên Khôi | 2420020 | <Email> |
+| Nguyễn Võ Anh Quân | 2312847 | quan.nguyencunne2005@hcmut.edu.vn |
+| Bùi Nhật Quí | 2312864 | qui.bui011105@hcmut.edu.vn |
+| Trần Kiến Quốc | 2312878 | quoc.tran522005@hcmut.edu.vn |
+| Phạm Thành Trí | 2313621 | tri.phamyeungoc@hcmut.edu.vn |
 
 ---
 
