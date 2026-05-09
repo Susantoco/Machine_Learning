@@ -60,14 +60,27 @@ Describe:
 # Project Structure
 
 ```text
-project-root/
-│
-├── data/                  # Dataset files
-├── notebooks/             # Jupyter/Colab notebooks
-├── src/                   # Source code
-├── models/                # Saved models
-├── reports/               # Report files
-├── results/               # Figures, outputs, evaluation results
-├── requirements.txt       # Required libraries
-├── README.md              # Project documentation
-└── .gitignore
+└── 📁Project
+    └── 📁features
+        └── 📁processed
+            ├── test.csv
+            ├── train.csv
+            ├── val.csv
+        └── 📁raw
+            ├── immo_data.csv
+    └── 📁modules
+        ├── preprocessing.py
+        ├── utils.py
+    └── 📁notebooks
+        ├── eda_and_prep.ipynb
+        ├── logistic_model.ipynb
+        ├── model_comp.ipynb
+        ├── Naive_Bayes_model.ipynb
+        ├── regression.ipynb
+        ├── svm_model.ipynb
+    └── 📁reports
+        └── 📁figures
+    ├── .gitignore
+    ├── download.py
+    ├── README.md
+    └── requirements.txt
