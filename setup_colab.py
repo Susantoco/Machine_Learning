@@ -13,9 +13,11 @@ subprocess.check_call([
     "requirements.txt"
 ])
 
-# Download features nếu chưa có
-if not os.path.exists("features/"):
+# Download data nếu chưa có
+if not os.path.exists("features/raw"):
     subprocess.check_call([
         sys.executable,
         "download.py"
     ])
+
+print("Setup completed.")
