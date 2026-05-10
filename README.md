@@ -22,7 +22,7 @@ Machine Learning — Course Project Repository
 
 | Full Name | Student ID | Email |
 |---|---|---|
-| Nguyễn Hồ Nguyên Khôi | 2420020 | <Email> |
+| Nguyễn Hồ Nguyên Khôi | 2420020 | khoi.nguyen2420020@hcmut.edu.vn |
 | Nguyễn Võ Anh Quân | 2312847 | quan.nguyencunne2005@hcmut.edu.vn |
 | Bùi Nhật Quí | 2312864 | qui.bui011105@hcmut.edu.vn |
 | Trần Kiến Quốc | 2312878 | quoc.tran522005@hcmut.edu.vn |
@@ -32,21 +32,80 @@ Machine Learning — Course Project Repository
 
 # Project Overview
 
-## Objective
-Briefly describe the goal of the project.
+This project focuses on predicting apartment rental prices in Germany using both traditional machine learning and modern deep learning approaches on the **Apartment Rental Offers in Germany** dataset.
 
-Example:
-> The objective of this project is to apply machine learning techniques to solve a real-world problem, including data preprocessing, model training, evaluation, and analysis of results.
+The study explores how apartment characteristics such as area, number of rooms, location, furnishing condition, construction year, and rental-related costs affect apartment prices. The project includes both:
+
+- **Regression tasks** for predicting exact rental prices.
+- **Classification tasks** for predicting rental price segments.
+
+In addition to traditional machine learning models, the project also investigates modern tabular learning architectures including deep learning and gradient boosting methods.
+
+---
+
+## Objective
+
+The main objective of this project is to:
+
+- Apply machine learning techniques to a real-world real-estate dataset.
+- Build predictive models for apartment rental prices.
+- Compare traditional machine learning methods with modern deep learning approaches.
+- Analyze important factors affecting apartment rental prices.
+- Evaluate model performance using multiple regression and classification metrics.
 
 ---
 
 ## Problem Statement
-Describe:
-- What problem your project aims to solve
-- Why the problem is important
-- Expected outcomes
+
+Apartment rental pricing is a complex problem influenced by many interconnected factors such as:
+
+- Apartment size
+- Number of rooms
+- Geographic location
+- Furnishing quality
+- Building age
+- Base rent
+- Additional costs and utilities
+
+Because rental prices depend on nonlinear interactions between multiple variables, traditional pricing methods are often insufficient for accurate estimation.
+
+This project aims to solve the problem by applying both machine learning and deep learning models to predict:
+- The exact rental price of an apartment.
+- The rental price category (budget, mid-range, premium).
+
+The project also evaluates how different learning paradigms perform on structured tabular data.
 
 ---
+
+## Models Used
+
+### Traditional Machine Learning Models
+
+#### Regression
+- Linear Regression
+- Support Vector Regression (SVR)
+- k-Nearest Neighbors Regression (k-NN)
+- Random Forest Regressor
+
+#### Classification
+- Logistic Regression
+- Naive Bayes
+
+---
+
+### Deep Learning / Modern Models
+
+- Multi-Layer Perceptron (MLP)
+- LightGBM
+- TabNet
+
+These models are used to explore:
+- Nonlinear feature interactions
+- Representation learning
+- Modern tabular learning techniques
+
+---
+
 
 ## Dataset
 - **Dataset Name:** Apartment rental offers in Germany
