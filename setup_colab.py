@@ -1,6 +1,21 @@
 import os
+import sys
+import subprocess
 
-os.system("pip install -q -r requirements.txt")
+# Install requirements
+subprocess.check_call([
+    sys.executable,
+    "-m",
+    "pip",
+    "install",
+    "-q",
+    "-r",
+    "requirements.txt"
+])
 
-if not os.path.exists("features/raw"):
-    os.system("python download.py")
+# Download features nếu chưa có
+if not os.path.exists("features/"):
+    subprocess.check_call([
+        sys.executable,
+        "download.py"
+    ])
